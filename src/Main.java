@@ -1,5 +1,6 @@
 import pojos.*;
 
+import java.sql.SQLOutput;
 import java.util.Calendar;
 
 public class Main {
@@ -27,7 +28,7 @@ public class Main {
         Cpu cpu = new Cpu("jh12g3","Venom","Portugal",Calendar.getInstance().getTime(), toshiba,1028);
         System.out.println(cpu);
 
-         */
+
 
         //polimorfismo
         Producto producto = new Producto("ms150","jesus 350");
@@ -53,5 +54,17 @@ public class Main {
         for (int i = 0 ;i < productos.length; i++){
             System.out.println(productos[i]);
         }
+
+         */
+
+        Monitor lg1080 = new Monitor("lg1080", "monitor LG 1080",10, "4K HD");
+        lg1080.reset();
+
+        DiscoDuro s1000 = new DiscoDuro("s1000","Toshiba",10.5,512);
+        s1000.reset();
+
+        Empresa empresa = new Empresa("Dell","Av. Brasil",2000);
+        Cpu Ryzen250 = new Cpu("Ryzen250","razor","United States", Calendar.getInstance().getTime(),empresa,1024);
+        Ryzen250.reset();
     }
 }

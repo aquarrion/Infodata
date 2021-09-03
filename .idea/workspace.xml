@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d99154e-0c6c-4e02-9d46-c9d7b30323ab" name="Default Changelist" comment="" />
+    <list default="true" id="7d99154e-0c6c-4e02-9d46-c9d7b30323ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/IReseteable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/Cpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Cpu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/DiscoDuro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/DiscoDuro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/DiscoSolido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/DiscoSolido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Impresora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Monitor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,19 +21,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xK3S76wVxHLzLcCU8zOJXicNhz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -39,6 +55,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,30 +73,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="437" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1630093780792">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="437" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1630093780792" />
-    <state x="433" y="68" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1630092719333">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="433" y="68" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1630092719333" />
-    <state width="1322" height="347" key="GridCell.Tab.0.bottom" timestamp="1630094012887">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="347" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630094012887" />
-    <state width="1322" height="347" key="GridCell.Tab.0.center" timestamp="1630094012887">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="347" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630094012887" />
-    <state width="1322" height="347" key="GridCell.Tab.0.left" timestamp="1630094012887">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="347" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630094012887" />
-    <state width="1322" height="347" key="GridCell.Tab.0.right" timestamp="1630094012887">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="347" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630094012887" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
