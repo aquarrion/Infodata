@@ -2,7 +2,7 @@ package pojos;
 
 import java.util.Date;
 
-public class Tecnologico extends Producto{
+public abstract class Tecnologico extends Producto{
     protected String paisOrigen;
     protected Date fechaFabricacion;
     protected Empresa fabricante;

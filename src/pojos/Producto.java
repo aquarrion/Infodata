@@ -1,6 +1,6 @@
 package pojos;
 
-public class Producto {
+public abstract class Producto {
     protected String codigo;
     protected String modelo;
 
@@ -33,4 +33,8 @@ public class Producto {
                 ", modelo='" + modelo + '\'' +
                 '}';
     }
+
+    public String modeloMayuscula(){return modelo.toUpperCase();}
+
+    public abstract void estado();
 }

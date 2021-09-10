@@ -30,6 +30,11 @@ public class Monitor extends Alquilable implements IReseteable {
     }
 
     @Override
+    public void estado() {
+        System.out.println("brillo: " + 25 + "%");
+    }
+
+    @Override
     public void reset() {
         System.out.println("Reseteando monitor.....");
     }
